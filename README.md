@@ -20,4 +20,4 @@ As mentioned this resource is currently WIP. For now if you want to contribute y
 - [ ] Analysing fingerprints (leo f.ex)
 
 ## 💡 License
-> **This resource is licensed under GNU GPL v3.0
+> **This resource is licensed under GNU GPL v3.0**
