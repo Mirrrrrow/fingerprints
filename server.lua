@@ -69,6 +69,20 @@ local function purgeFingerprints(playerId, slot)
     exports.ox_inventory:SetMetadata(playerId, slot, metadata)
 end
 
+local function getFingerprints(playerId, slot)
+    local item = exports.ox_inventory:GetSlot(playerId, slot)
+    if not item then return end
+
+    local metadata = item.metadata or {}
+    metadata.fingerprints = metadata.fingerprints or {
+        users = {},
+        count = 0
+    }
+
+    return metadata.fingerprints
+end
+
 exports('AddFingerprint', addFingerprint)
 exports('RemoveFingerprint', removeFingerprint)
 exports('PurgeFingerprints', purgeFingerprints)
+exports('GetFingerprints', getFingerprints)
