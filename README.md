@@ -13,6 +13,7 @@ Server:
 - AddFingerprint: fun(playerId: number, slot: number, identifier: string)
 - RemoveFingerprint: fun(playerId: number, slot: number, identifier: string)
 - PurgeFingerprints: fun(playerId: number, slot, number)
+- GetFingerprints: fun(playerId: number, slot: number): string[] identifiers
 
 ## 📚 Download
 As mentioned this resource is currently WIP. For now if you want to contribute you may just download the source code.
