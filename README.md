@@ -9,6 +9,11 @@ Client:
 - IsPlayersFingerprintInserted: fun(metadata: table): boolean
 - IsPlayersFingerprintOnCurrentWeapon: fun(): booolean
 
+Server:
+- AddFingerprint: fun(playerId: number, slot: number, identifier: string)
+- RemoveFingerprint: fun(playerId: number, slot: number, identifier: string)
+- PurgeFingerprints: fun(playerId: number, slot, number)
+
 ## 📚 Download
 As mentioned this resource is currently WIP. For now if you want to contribute you may just download the source code.
 
@@ -16,7 +21,7 @@ As mentioned this resource is currently WIP. For now if you want to contribute y
 - [x] Fingerprint saving 
 - [x] Glove detecting and looping
 - [ ] "Washing off" fingerprints
-- [ ] Manipulating fingerprints
+- [x] Manipulating fingerprints
 - [ ] Analysing fingerprints (leo f.ex)
 
 ## 💡 License
