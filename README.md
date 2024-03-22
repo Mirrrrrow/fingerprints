@@ -20,7 +20,7 @@ As mentioned this resource is currently WIP. For now if you want to contribute y
 ## 🎈 Todo
 - [x] Fingerprint saving 
 - [x] Glove detecting and looping
-- [ ] "Washing off" fingerprints
+- [x] "Washing off" fingerprints (basicly use the "PurgeFingerprints" export)
 - [x] Manipulating fingerprints
 - [ ] Analysing fingerprints (leo f.ex)
 
