@@ -23,7 +23,7 @@ As mentioned this resource is currently WIP. For now if you want to contribute y
 - [x] Glove detecting and looping
 - [x] "Washing off" fingerprints (basicly use the "PurgeFingerprints" export)
 - [x] Manipulating fingerprints
-- [ ] Analysing fingerprints (leo f.ex)
+- [ ] Analysing fingerprints (eg: for LEOs)
 
 ## 💡 License
 > **This resource is licensed under GNU GPL v3.0**
